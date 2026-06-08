@@ -27,3 +27,6 @@ jobs:
 
       - name: Build da imagem Docker
         run: docker build -t campusops-api .
+
+      - name: Executar testes automatizados
+        run: npm test
