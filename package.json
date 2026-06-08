@@ -1,0 +1,16 @@
+{
+  "name": "campusops-api",
+  "version": "1.0.0",
+  "description": "API para prática de DevOps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node -c src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
