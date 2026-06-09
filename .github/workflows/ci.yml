@@ -25,6 +25,9 @@ jobs:
       - name: Verificar sintaxe
         run: npm run check
 
+      - name: Verificar padrão de código
+        run: npm run lint
+
       - name: Build da imagem Docker
         run: docker build -t campusops-api .
 
