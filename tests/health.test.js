@@ -3,7 +3,7 @@ const app = require("../src/app");
 
 describe("CampusOps API", () => {
   test("GET /health deve retornar status healthy", async () => {
-    const response = await request(app).get("/health");
+    const response = await request(app).get("/healthy");
 
     expect(response.statusCode).toBe(200);
     expect(response.body.status).toBe("healthy");
