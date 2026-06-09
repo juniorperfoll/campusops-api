@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.json({
-    mensagem: "CampusOps API em execução",
+    mensagem: "CampusOps API em execução"
     disciplina: "Cloud Computing",
     tema: "DevOps",
     status: "ok"
